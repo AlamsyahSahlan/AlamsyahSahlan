@@ -1,31 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 130" width="100%" height="130">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 135" width="100%" height="135">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0d1117"/>
-      <stop offset="50%" stop-color="#131d2e"/>
-      <stop offset="100%" stop-color="#0d1117"/>
+      <stop offset="0%" stop-color="#030806"/>
+      <stop offset="50%" stop-color="#06140d"/>
+      <stop offset="100%" stop-color="#030806"/>
     </linearGradient>
     <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#58a6ff" stop-opacity="0.8"/>
-      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#00ff41" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#00ff41" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#00ff41" stop-opacity="0"/>
     </linearGradient>
   </defs>
 
   <style>
-    .bg-text {
+    .col-green {
       font-family: 'Courier New', Consolas, monospace;
-      font-size: 13px;
-      fill: #58a6ff;
-      opacity: 0.32;
-      letter-spacing: 1.5px;
+      font-size: 12px;
+      font-weight: 600;
+      fill: #00ff41;
+      opacity: 0.45;
     }
-    .bg-text-2 {
+    .col-lime {
       font-family: 'Courier New', Consolas, monospace;
-      font-size: 13px;
-      fill: #3fb950;
-      opacity: 0.28;
-      letter-spacing: 1.5px;
+      font-size: 12px;
+      font-weight: 600;
+      fill: #39ff14;
+      opacity: 0.35;
+    }
+    .col-cyan {
+      font-family: 'Courier New', Consolas, monospace;
+      font-size: 12px;
+      font-weight: 600;
+      fill: #00ffcc;
+      opacity: 0.40;
     }
     .title {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
@@ -35,41 +42,98 @@
       letter-spacing: 0.8px;
     }
     .subtitle {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-      font-size: 14px;
-      font-weight: 500;
-      fill: #a5d6ff;
-      letter-spacing: 0.5px;
+      font-family: 'Courier New', Consolas, monospace;
+      font-size: 13.5px;
+      font-weight: 600;
+      fill: #00ff66;
+      letter-spacing: 0.4px;
     }
   </style>
 
-  <!-- Compact Dark Background -->
-  <rect width="900" height="130" rx="10" fill="url(#bg)"/>
+  <!-- Compact Dark Hacker Background -->
+  <rect width="900" height="135" rx="10" fill="url(#bg)"/>
 
-  <!-- Scrolling Background Text Rows -->
+  <!-- Vertically Falling / Sliding Text Columns in Hacker Green & Cyan -->
   <g>
-    <text y="28" class="bg-text">
-      Alamsyah Sahlan  •  Informatics Student  •  Universitas Muhammadiyah Makassar  •  Makassar, Indonesia  •  Alamsyah Sahlan  •  Informatics Student  •  Unismuh Makassar
-      <animate attributeName="x" from="-700" to="0" dur="14s" repeatCount="indefinite"/>
+    <text x="25" y="-120" class="col-green">
+      <tspan x="25" dy="16">01001101</tspan>
+      <tspan x="25" dy="16">ALAMSYAH</tspan>
+      <tspan x="25" dy="16">10110010</tspan>
+      <tspan x="25" dy="16">0x00FF41</tspan>
+      <tspan x="25" dy="16">01101001</tspan>
+      <tspan x="25" dy="16">UNISMUH</tspan>
+      <animate attributeName="y" from="-110" to="145" dur="4.2s" repeatCount="indefinite"/>
     </text>
-    <text y="68" class="bg-text-2">
-      const student = "Alamsyah Sahlan";  •  HTML  •  CSS  •  JavaScript  •  VS Code  •  GitHub  •  const student = "Alamsyah Sahlan";  •  HTML  •  CSS  •  JavaScript
-      <animate attributeName="x" from="0" to="-700" dur="16s" repeatCount="indefinite"/>
+
+    <text x="125" y="-90" class="col-cyan">
+      <tspan x="125" dy="16">11010110</tspan>
+      <tspan x="125" dy="16">HTML_CSS</tspan>
+      <tspan x="125" dy="16">00101101</tspan>
+      <tspan x="125" dy="16">JS_CODE</tspan>
+      <tspan x="125" dy="16">10101111</tspan>
+      <animate attributeName="y" from="-100" to="145" dur="3.5s" repeatCount="indefinite"/>
     </text>
-    <text y="110" class="bg-text">
-      Terus belajar dan berkembang setiap hari  •  Informatika Unismuh Makassar  •  Terus belajar dan berkembang setiap hari  •  Informatika Unismuh Makassar
-      <animate attributeName="x" from="-650" to="0" dur="13s" repeatCount="indefinite"/>
+
+    <text x="225" y="-110" class="col-lime">
+      <tspan x="225" dy="16">01010101</tspan>
+      <tspan x="225" dy="16">SAHLAN</tspan>
+      <tspan x="225" dy="16">11100011</tspan>
+      <tspan x="225" dy="16">00011100</tspan>
+      <tspan x="225" dy="16">0x7F8A1C</tspan>
+      <animate attributeName="y" from="-110" to="145" dur="4.8s" repeatCount="indefinite"/>
+    </text>
+
+    <text x="330" y="-85" class="col-green">
+      <tspan x="330" dy="16">10011001</tspan>
+      <tspan x="330" dy="16">01100110</tspan>
+      <tspan x="330" dy="16">CODING</tspan>
+      <tspan x="330" dy="16">11011011</tspan>
+      <animate attributeName="y" from="-90" to="145" dur="3.8s" repeatCount="indefinite"/>
+    </text>
+
+    <text x="445" y="-100" class="col-cyan">
+      <tspan x="445" dy="16">01110010</tspan>
+      <tspan x="445" dy="16">10001101</tspan>
+      <tspan x="445" dy="16">0x4A9E00</tspan>
+      <tspan x="445" dy="16">01011100</tspan>
+      <animate attributeName="y" from="-95" to="145" dur="4.4s" repeatCount="indefinite"/>
+    </text>
+
+    <text x="560" y="-95" class="col-green">
+      <tspan x="560" dy="16">10101010</tspan>
+      <tspan x="560" dy="16">MAKASSAR</tspan>
+      <tspan x="560" dy="16">01010101</tspan>
+      <tspan x="560" dy="16">11110000</tspan>
+      <animate attributeName="y" from="-95" to="145" dur="3.6s" repeatCount="indefinite"/>
+    </text>
+
+    <text x="675" y="-115" class="col-lime">
+      <tspan x="675" dy="16">00101101</tspan>
+      <tspan x="675" dy="16">11010010</tspan>
+      <tspan x="675" dy="16">GITHUB</tspan>
+      <tspan x="675" dy="16">01101100</tspan>
+      <tspan x="675" dy="16">0x99FD2D</tspan>
+      <animate attributeName="y" from="-110" to="145" dur="4.5s" repeatCount="indefinite"/>
+    </text>
+
+    <text x="790" y="-90" class="col-green">
+      <tspan x="790" dy="16">11100101</tspan>
+      <tspan x="790" dy="16">00011010</tspan>
+      <tspan x="790" dy="16">ONLINE</tspan>
+      <tspan x="790" dy="16">10110101</tspan>
+      <tspan x="790" dy="16">01001110</tspan>
+      <animate attributeName="y" from="-100" to="145" dur="3.9s" repeatCount="indefinite"/>
     </text>
   </g>
 
-  <!-- Dark Translucent Pill Behind Main Text for Readability -->
-  <rect x="190" y="24" width="520" height="82" rx="8" fill="#0d1117" fill-opacity="0.82" stroke="#30363d" stroke-width="1"/>
+  <!-- Center Box for Crisp Name & Subtitle -->
+  <rect x="185" y="25" width="530" height="84" rx="8" fill="#030806" fill-opacity="0.82" stroke="#00ff41" stroke-width="1" stroke-opacity="0.45"/>
 
-  <!-- Clean Center Title & Subtitle -->
-  <text x="450" y="62" text-anchor="middle" class="title">Alamsyah Sahlan</text>
-  <text x="450" y="88" text-anchor="middle" class="subtitle">Informatics Student • Universitas Muhammadiyah Makassar</text>
+  <!-- Main Name & Subtitle -->
+  <text x="450" y="64" text-anchor="middle" class="title">Alamsyah Sahlan</text>
+  <text x="450" y="91" text-anchor="middle" class="subtitle">&gt; Informatics Student • Universitas Muhammadiyah Makassar</text>
 
-  <!-- Subtle Bottom Glow Line & Border -->
-  <rect x="150" y="128" width="600" height="1.5" fill="url(#accentLine)"/>
-  <rect x="0.75" y="0.75" width="898.5" height="128.5" rx="10" fill="none" stroke="#30363d" stroke-width="1.2"/>
+  <!-- Neon Green Accent Line & Border -->
+  <rect x="150" y="133" width="600" height="1.5" fill="url(#accentLine)"/>
+  <rect x="0.75" y="0.75" width="898.5" height="133.5" rx="10" fill="none" stroke="#00ff41" stroke-width="1.2" stroke-opacity="0.45"/>
 </svg>
