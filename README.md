@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/AlamsyahSahlan/AlamsyahSahlan/main/hack-banner.svg?v=3" width="100%" alt="Banner" />
+<img src="https://raw.githubusercontent.com/AlamsyahSahlan/AlamsyahSahlan/main/hack-banner.svg?v=4" width="100%" alt="Banner" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=17&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&width=600&lines=Halo%2C+saya+Alamsyah+Sahlan;Mahasiswa+Informatika+Unismuh+Makassar;Terus+belajar+dan+berkembang+setiap+hari" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=17&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Halo%2C+saya+Alamsyah+Sahlan;Mahasiswa+Informatika+Unismuh+Makassar;Terus+belajar+dan+berkembang+setiap+hari" alt="Typing SVG" />
 
 </div>
 
