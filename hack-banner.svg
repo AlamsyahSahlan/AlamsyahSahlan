@@ -2,12 +2,12 @@
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0d1117"/>
-      <stop offset="50%" stop-color="#111b27"/>
+      <stop offset="50%" stop-color="#131d2e"/>
       <stop offset="100%" stop-color="#0d1117"/>
     </linearGradient>
     <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#58a6ff" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#58a6ff" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#58a6ff" stop-opacity="0.8"/>
       <stop offset="100%" stop-color="#58a6ff" stop-opacity="0"/>
     </linearGradient>
   </defs>
@@ -17,28 +17,28 @@
       font-family: 'Courier New', Consolas, monospace;
       font-size: 13px;
       fill: #58a6ff;
-      opacity: 0.14;
+      opacity: 0.32;
       letter-spacing: 1.5px;
     }
     .bg-text-2 {
       font-family: 'Courier New', Consolas, monospace;
-      font-size: 12px;
-      fill: #79c0ff;
-      opacity: 0.11;
-      letter-spacing: 2px;
+      font-size: 13px;
+      fill: #3fb950;
+      opacity: 0.28;
+      letter-spacing: 1.5px;
     }
     .title {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
       font-size: 34px;
-      font-weight: 700;
+      font-weight: 800;
       fill: #ffffff;
       letter-spacing: 0.8px;
     }
     .subtitle {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
       font-size: 14px;
-      font-weight: 400;
-      fill: #8b949e;
+      font-weight: 500;
+      fill: #a5d6ff;
       letter-spacing: 0.5px;
     }
   </style>
@@ -46,27 +46,30 @@
   <!-- Compact Dark Background -->
   <rect width="900" height="130" rx="10" fill="url(#bg)"/>
 
-  <!-- Subtle Running / Scrolling Text in Background -->
+  <!-- Scrolling Background Text Rows -->
   <g>
-    <text y="32" class="bg-text">
-      Alamsyah Sahlan  •  Informatics Student  •  Universitas Muhammadiyah Makassar  •  Makassar, Indonesia  •  Alamsyah Sahlan  •  Informatics Student
-      <animate attributeName="x" from="-600" to="0" dur="18s" repeatCount="indefinite"/>
+    <text y="28" class="bg-text">
+      Alamsyah Sahlan  •  Informatics Student  •  Universitas Muhammadiyah Makassar  •  Makassar, Indonesia  •  Alamsyah Sahlan  •  Informatics Student  •  Unismuh Makassar
+      <animate attributeName="x" from="-700" to="0" dur="14s" repeatCount="indefinite"/>
     </text>
     <text y="68" class="bg-text-2">
-      HTML  •  CSS  •  JavaScript  •  Visual Studio Code  •  GitHub  •  Informatika Unismuh Makassar  •  HTML  •  CSS  •  JavaScript  •  GitHub
-      <animate attributeName="x" from="0" to="-600" dur="20s" repeatCount="indefinite"/>
+      const student = "Alamsyah Sahlan";  •  HTML  •  CSS  •  JavaScript  •  VS Code  •  GitHub  •  const student = "Alamsyah Sahlan";  •  HTML  •  CSS  •  JavaScript
+      <animate attributeName="x" from="0" to="-700" dur="16s" repeatCount="indefinite"/>
     </text>
-    <text y="106" class="bg-text">
-      Terus belajar dan berkembang setiap hari  •  Halo, saya Alamsyah Sahlan  •  Informatics Engineering  •  Terus belajar dan berkembang setiap hari
-      <animate attributeName="x" from="-550" to="0" dur="16s" repeatCount="indefinite"/>
+    <text y="110" class="bg-text">
+      Terus belajar dan berkembang setiap hari  •  Informatika Unismuh Makassar  •  Terus belajar dan berkembang setiap hari  •  Informatika Unismuh Makassar
+      <animate attributeName="x" from="-650" to="0" dur="13s" repeatCount="indefinite"/>
     </text>
   </g>
 
+  <!-- Dark Translucent Pill Behind Main Text for Readability -->
+  <rect x="190" y="24" width="520" height="82" rx="8" fill="#0d1117" fill-opacity="0.82" stroke="#30363d" stroke-width="1"/>
+
   <!-- Clean Center Title & Subtitle -->
   <text x="450" y="62" text-anchor="middle" class="title">Alamsyah Sahlan</text>
-  <text x="450" y="92" text-anchor="middle" class="subtitle">Informatics Student • Universitas Muhammadiyah Makassar</text>
+  <text x="450" y="88" text-anchor="middle" class="subtitle">Informatics Student • Universitas Muhammadiyah Makassar</text>
 
-  <!-- Subtle Top/Bottom Glow Line & Border -->
+  <!-- Subtle Bottom Glow Line & Border -->
   <rect x="150" y="128" width="600" height="1.5" fill="url(#accentLine)"/>
   <rect x="0.75" y="0.75" width="898.5" height="128.5" rx="10" fill="none" stroke="#30363d" stroke-width="1.2"/>
 </svg>
