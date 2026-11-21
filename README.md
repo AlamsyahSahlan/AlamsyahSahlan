@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=Venom&color=0:0d1117,100:58a6ff&height=160&section=header&text=Alamsyah%20Sahlan&fontSize=42&fontColor=ffffff&animation=fadeIn&desc=Informatics%20Student%20%E2%80%A2%20Universitas%20Muhammadiyah%20Makassar&descSize=15&descAlignY=68" width="100%" />
+<img src="https://raw.githubusercontent.com/AlamsyahSahlan/AlamsyahSahlan/main/hack-banner.svg?v=2" width="100%" alt="Banner" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=620&lines=Halo%2C+saya+Alamsyah+Sahlan;Mahasiswa+Informatika+Unismuh+Makassar;Terus+belajar+dan+berkembang+setiap+hari" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=17&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Halo%2C+saya+Alamsyah+Sahlan;Mahasiswa+Informatika+Unismuh+Makassar;Terus+belajar+dan+berkembang+setiap+hari" alt="Typing SVG" />
 
 </div>
 
