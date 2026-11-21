@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 135" width="100%" height="135">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020604"/>
+      <stop offset="50%" stop-color="#05120b"/>
+      <stop offset="100%" stop-color="#020604"/>
+    </linearGradient>
+    <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00ff41" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#00ff41" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#00ff41" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="bannerClip">
+      <rect width="900" height="135" rx="10"/>
+    </clipPath>
+  </defs>
+
+  <style>
+    .line-green {
+      font-family: 'Courier New', Consolas, monospace;
+      font-size: 12.5px;
+      font-weight: 700;
+      fill: #00ff41;
+      opacity: 0.55;
+      letter-spacing: 1.2px;
+    }
+    .line-cyan {
+      font-family: 'Courier New', Consolas, monospace;
+      font-size: 12.5px;
+      font-weight: 700;
+      fill: #00ffcc;
+      opacity: 0.50;
+      letter-spacing: 1.2px;
+    }
+    .line-lime {
+      font-family: 'Courier New', Consolas, monospace;
+      font-size: 12.5px;
+      font-weight: 700;
+      fill: #39ff14;
+      opacity: 0.48;
+      letter-spacing: 1.2px;
+    }
+    .title {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-size: 34px;
+      font-weight: 800;
+      fill: #ffffff;
+      letter-spacing: 0.8px;
+    }
+    .subtitle {
+      font-family: 'Courier New', Consolas, monospace;
+      font-size: 13.5px;
+      font-weight: 700;
+      fill: #00ff41;
+      letter-spacing: 0.4px;
+    }
+  </style>
+
+  <g clip-path="url(#bannerClip)">
+    <!-- Dark Hacker Background -->
+    <rect width="900" height="135" rx="10" fill="url(#bg)"/>
+
+    <!-- Seamless Vertically Scrolling Text (Sliding Downwards) -->
+    <g>
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="0 135" dur="5s" repeatCount="indefinite"/>
+
+      <!-- Set B (Above, moves into view) -->
+      <text x="18" y="-117" class="line-green">01001101  root@alamsyah:~# ./init_system.sh --node=makassar_idn  [OK]  10110010  0x00FF41</text>
+      <text x="18" y="-94.5" class="line-cyan">0x7F8A1C  const user = { name: "Alamsyah Sahlan", dept: "Informatics" };  SYN_ACK  01101001</text>
+      <text x="18" y="-72" class="line-lime">11010110  [STREAM] &gt;&gt; loading modules: html.so  css.so  javascript.so  vscode.bin  100%</text>
+      <text x="18" y="-49.5" class="line-green">01010101  ssh -p 443 alamsyah@github.com  &gt;&gt;  session_active=true  ttl=64  00110101</text>
+      <text x="18" y="-27" class="line-cyan">10011001  Universitas Muhammadiyah Makassar  //  Informatics Engineering  //  0x99FD2D</text>
+      <text x="18" y="-4.5" class="line-lime">11100101  while(learning) { upgradeSkills(); buildProjects(); }  //  STATUS: ONLINE  01011100</text>
+
+      <!-- Set A (Visible initially, moves down) -->
+      <text x="18" y="18" class="line-green">01001101  root@alamsyah:~# ./init_system.sh --node=makassar_idn  [OK]  10110010  0x00FF41</text>
+      <text x="18" y="40.5" class="line-cyan">0x7F8A1C  const user = { name: "Alamsyah Sahlan", dept: "Informatics" };  SYN_ACK  01101001</text>
+      <text x="18" y="63" class="line-lime">11010110  [STREAM] &gt;&gt; loading modules: html.so  css.so  javascript.so  vscode.bin  100%</text>
+      <text x="18" y="85.5" class="line-green">01010101  ssh -p 443 alamsyah@github.com  &gt;&gt;  session_active=true  ttl=64  00110101</text>
+      <text x="18" y="108" class="line-cyan">10011001  Universitas Muhammadiyah Makassar  //  Informatics Engineering  //  0x99FD2D</text>
+      <text x="18" y="130.5" class="line-lime">11100101  while(learning) { upgradeSkills(); buildProjects(); }  //  STATUS: ONLINE  01011100</text>
+    </g>
+
+    <!-- Center Box for Crisp Name & Subtitle -->
+    <rect x="185" y="25" width="530" height="84" rx="8" fill="#020805" fill-opacity="0.86" stroke="#00ff41" stroke-width="1.2" stroke-opacity="0.6"/>
+
+    <!-- Main Name & Subtitle -->
+    <text x="450" y="64" text-anchor="middle" class="title">Alamsyah Sahlan</text>
+    <text x="450" y="91" text-anchor="middle" class="subtitle">&gt; Informatics Student • Universitas Muhammadiyah Makassar</text>
+
+    <!-- Neon Green Accent Line -->
+    <rect x="150" y="133" width="600" height="1.5" fill="url(#accentLine)"/>
+  </g>
+
+  <rect x="0.75" y="0.75" width="898.5" height="133.5" rx="10" fill="none" stroke="#00ff41" stroke-width="1.2" stroke-opacity="0.5"/>
+</svg>
